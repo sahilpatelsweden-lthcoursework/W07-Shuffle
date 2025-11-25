@@ -32,7 +32,11 @@ class Deck private (val initCards: ArraySeq[Card]):
     cards(b) = temp
 
   /** Randomly reorders the cards in this deck. */
-  def shuffle(): Unit = ???
+  def shuffle(): Unit = 
+    import scala.util.Random
+    for i <- cards.indices.reverse do
+        val r = Random.between(0, i + 1)    // random number 0 to i (inclusive)
+        swap(i, r)
 
 object Deck:
   def apply(cards: Seq[Card]): Deck = new Deck(cards.to(ArraySeq))
