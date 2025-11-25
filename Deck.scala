@@ -26,7 +26,10 @@ class Deck private (val initCards: ArraySeq[Card]):
     cards = (moreCards ++ cards).toArray
 
   /** Swaps cards at position a and b. */
-  def swap(a: Int, b: Int): Unit = ???
+  def swap(a: Int, b: Int): Unit = 
+    val temp = cards(a)
+    cards(a) = cards(b)
+    cards(b) = temp
 
   /** Randomly reorders the cards in this deck. */
   def shuffle(): Unit = ???
