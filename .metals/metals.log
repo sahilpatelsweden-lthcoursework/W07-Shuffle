@@ -1463,3 +1463,41 @@ WARNING: Unmatched cancel notification for request id 1059
 2025.11.25 17:44:43 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
 2025.11.25 17:44:47 WARN  no build target for: /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala
 2025.11.25 17:44:47 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:05 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:44 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:44 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:44 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:45 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:44 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:45 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:45 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:45 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:45 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:45 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:45 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:46 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:46 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:45:46 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 17:46:00 WARN  no build target for: /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala
+2025.11.25 17:46:00 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:18 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:20 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:21 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:21 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:24 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:24 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:24 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:25 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:25 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:25 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:26 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:26 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:26 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/sahil.patel/Programming/w07 Shuffle/.metals/.reports/metals-full/2025-11-25/r_empty-definition_16-00-09-207.md")
+2025.11.25 18:46:34 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:34 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:34 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:36 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:36 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:36 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:36 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.25 18:46:37 INFO  no build target found for /Users/sahil.patel/Programming/w07 Shuffle/Deck.scala. Using presentation compiler with project's scala-library version: 3.3.6

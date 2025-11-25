@@ -42,4 +42,11 @@ object Deck:
   def apply(cards: Seq[Card]): Deck = new Deck(cards.to(ArraySeq))
 
   /** Creates a new full Deck with 52 cards in rank and suit order. */
-  def full(): Deck = ???
+  def full(): Deck = 
+    val allCards = 
+        for
+            s <- Card.Suit.values
+            r <- Card.Rank.values
+        yield Card(r, s)
+
+    Deck(allCards)
