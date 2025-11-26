@@ -9,7 +9,12 @@ case class Hand(cards: ArraySeq[Card]):
    * Yields a sequence of length 13, with positions 0-12 containing the 
    * number of cards of that card's rank's ordinal number (zero based).
    */
-  lazy val tally: ArraySeq[Int] = ???
+  lazy val tally: ArraySeq[Int] = 
+    val counts = Array.fill(13)(0)
+    for c <- cards do
+        val i = c.rank.ordinal
+        counts(i) += 1
+    ArraySeq.from(counts)
 
   lazy val ranksSorted: ArraySeq[Int] = cards.map(_.rank.ordinal).sorted
 
