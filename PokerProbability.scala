@@ -10,7 +10,19 @@ object PokerProbability:
    * Prints a dot every dotStep iteration
    */
   def register(n: Long, deck: Deck, dotStep: Long = 1e6.toLong): ArraySeq[Int] = 
-    ???
+    val counts = Array.fill(Hand.Category.values.length)(0)
+
+    for i <- 1L to n do
+        if i % dotStep == 0 then print(".")
+        deck.reset()
+        deck.shuffle()
+        val hand = Hand.from(deck)
+        val cat = hand.category.ordinal
+        counts(cat) += 1
+    end for
+
+    counts.to(ArraySeq)
+
   end register
 
   @main def simulate: Unit = 
