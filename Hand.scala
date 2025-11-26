@@ -28,7 +28,10 @@ case class Hand(cards: ArraySeq[Card]):
       (ranksSorted(0) == 0) && isInSeq(ranksSorted.drop(1) :+ 13)
 
   lazy val isStraightFlush: Boolean = isStraight && isFlush
-  lazy val isRoyalFlush:    Boolean = ???
+  lazy val isRoyalFlush:    Boolean = 
+    isStraightFlush &&
+    ranksSorted.contains(Card.Rank.Ace.ordinal) &&
+    ranksSorted.contains(Card.Rank.King.ordinal)
   lazy val isFour:          Boolean = tally.contains(4)
   lazy val isFullHouse:     Boolean = tally.contains(3) && tally.contains(2)
   lazy val isThrees:        Boolean = tally.contains(3)
