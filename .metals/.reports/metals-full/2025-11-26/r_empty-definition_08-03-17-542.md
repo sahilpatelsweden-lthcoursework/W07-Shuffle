@@ -1,3 +1,22 @@
+error id: file://<HOME>/Programming/w07%20Shuffle/Hand.scala:`<none>`.
+file://<HOME>/Programming/w07%20Shuffle/Hand.scala
+empty definition using pc, found symbol in pc: `<none>`.
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -Hand.tally.contains.
+	 -Hand.tally.contains#
+	 -Hand.tally.contains().
+	 -tally/contains.
+	 -tally/contains#
+	 -tally/contains().
+	 -scala/Predef.tally.contains.
+	 -scala/Predef.tally.contains#
+	 -scala/Predef.tally.contains().
+offset: 1255
+uri: file://<HOME>/Programming/w07%20Shuffle/Hand.scala
+text:
+```scala
 package poker
 
 import scala.collection.immutable.ArraySeq
@@ -32,7 +51,7 @@ case class Hand(cards: ArraySeq[Card]):
     isStraightFlush && ranksSorted.max == Card.Rank.King.ordinal
   lazy val isFour:          Boolean = tally.contains(4)
   lazy val isFullHouse:     Boolean = tally.contains(3) && tally.contains(2)
-  lazy val isThrees:        Boolean = tally.contains(3)
+  lazy val isThrees:        Boolean = tally.cont@@ains(3)
   lazy val isTwoPair:       Boolean = tally.count(_ == 2) == 2
   lazy val isOnePair:       Boolean = tally.contains(2)
 
@@ -58,3 +77,9 @@ object Hand:
       RoyalFlush, StraightFlush, Fours, FullHouse, Flush, 
       Straight, Threes, TwoPair, OnePair, HighCard
 end Hand
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: `<none>`.

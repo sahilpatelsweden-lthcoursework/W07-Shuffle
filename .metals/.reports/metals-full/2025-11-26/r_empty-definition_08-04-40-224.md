@@ -1,3 +1,16 @@
+error id: file://<HOME>/Programming/w07%20Shuffle/Hand.scala:poker/Hand.Category.
+file://<HOME>/Programming/w07%20Shuffle/Hand.scala
+empty definition using pc, found symbol in pc: 
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -Hand.Category.
+	 -Category.
+	 -scala/Predef.Category.
+offset: 1770
+uri: file://<HOME>/Programming/w07%20Shuffle/Hand.scala
+text:
+```scala
 package poker
 
 import scala.collection.immutable.ArraySeq
@@ -43,7 +56,7 @@ case class Hand(cards: ArraySeq[Card]):
     else if isFullHouse     then Category.FullHouse
     else if isFlush         then Category.Flush
     else if isStraight      then Category.Straight
-    else if isThrees        then Category.Threes
+    else if isThrees        then Categor@@y.Threes
     else if isTwoPair       then Category.TwoPair
     else if isOnePair       then Category.OnePair
     else                         Category.HighCard
@@ -58,3 +71,9 @@ object Hand:
       RoyalFlush, StraightFlush, Fours, FullHouse, Flush, 
       Straight, Threes, TwoPair, OnePair, HighCard
 end Hand
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: 
